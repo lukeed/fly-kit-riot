@@ -1,0 +1,41 @@
+{
+  "name": "fly-kit-riot",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "fly": "fly",
+    "build": "fly build",
+    "release": "fly release",
+    "start": "fly build serve",
+    "watch": "fly",
+    "test": "xo"
+  },
+  "dependencies": {
+    "riot": "^2.6.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "fly": "beta",
+    "fly-autoprefixer": "^1.0.0",
+    "fly-browserify2": "^2.0.1",
+    "fly-concat": "^1.1.0",
+    "fly-esnext": "^2.0.0",
+    "fly-rev": "^2.0.0",
+    "fly-riot": "^2.0.0",
+    "fly-sass": "^2.0.0",
+    "fly-uglify": "^2.0.0",
+    "fly-xo": "^2.0.0",
+    "xo": "*"
+  },
+  "xo": {
+    "envs": [
+      "browser"
+    ],
+    "globals": [
+      "riot"
+    ],
+    "ignores": [
+      "flyfile.js"
+    ]
+  }
+}
