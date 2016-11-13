@@ -1,7 +1,7 @@
 {
   "name": "fly-kit-riot",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "fly": "fly",
     "build": "fly build",
