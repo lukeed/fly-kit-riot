@@ -35,7 +35,8 @@
       "riot"
     ],
     "ignores": [
-      "flyfile.js"
+      "flyfile.js",
+      "release/**"
     ]
   }
 }
