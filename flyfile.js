@@ -58,6 +58,8 @@ export async function build(fly) {
 }
 
 export async function release(fly) {
+	// minify html
+	await fly.source(`${tar}/*.html`).htmlmin().target(tar);
 	// minify js
 	await fly.source(`${tar}/js/*`).uglify({ compress:true }).target(`${tar}/js`);
 	// version assets
