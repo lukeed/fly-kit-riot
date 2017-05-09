@@ -72,6 +72,8 @@ export async function styles(fly) {
 	await fly.source('src/styles/app.sass').sass({
 		outputStyle: 'compressed',
 		includePaths: [bower]
+		includePaths: [`${node}/md-colors/src`],
+		outputStyle: 'compressed'
 	}).autoprefixer().target(`${tar}/css`);
 	reload();
 }

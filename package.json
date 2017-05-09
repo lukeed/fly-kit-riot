@@ -12,6 +12,7 @@
     "test": "xo"
   },
   "dependencies": {
+    "md-colors": "^1.0.0",
     "riot": "^2.6.7"
   },
   "devDependencies": {
