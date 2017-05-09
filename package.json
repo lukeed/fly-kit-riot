@@ -16,16 +16,19 @@
     "riot": "^2.6.7"
   },
   "devDependencies": {
-    "browser-sync": "^2.17.5",
+    "browser-sync": "^2.18.8",
+    "connect-history-api-fallback": "^1.3.0",
     "fly": "^2.0.6",
     "fly-autoprefixer": "^1.1.0",
     "fly-browserify2": "^2.1.0",
+    "fly-clear": "^1.0.1",
     "fly-concat": "^1.2.0",
     "fly-esnext": "^2.0.1",
     "fly-rev": "^2.3.0",
     "fly-riot": "^2.1.0",
     "fly-sass": "^2.1.0",
     "fly-uglify": "^2.1.1",
+    "fly-watch": "^1.1.1",
     "fly-xo": "^2.1.0",
     "serve": "^5.1.5",
     "xo": "*"
